@@ -10,13 +10,13 @@ $con = mysqli_connect($server, $user, $password, $db);
 if($con){
 	?>
 	<script>
-		alert("connection ok");
+// 		alert("connection ok");
 	</script>
 	<?php
 }else{
 	?>
 	 <script type="text/javascript">
-		alert("connection fail");
+// 		alert("connection fail");
 	</script>
 	<?php
 }
